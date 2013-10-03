@@ -1,0 +1,262 @@
+/*basic_cms color palette
+#414042     rgb(65, 64, 66)  Dark Gray
+#202B30     rgb(32, 43, 48)  Dark blue
+#4E7178     Dark-light blue
+#4FA9B8      Blue
+#74C0CF     sky-Blue
+#F1F7E2     off-milk
+
+*/
+
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/*limited reset*/
+html, body, div, section, article, aside, header, footer, nav, h1, h2, h3, h4, h5, p, ol, ul, li, figure {
+    margin:0;
+    padding:0;
+    border:0;
+    vertical-align:baseline;
+    font:inherit;
+}
+/*html5 display rule*/
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, section{
+    display:block;  
+}
+
+html{
+background: rgb(65,64,66);
+height:100%;
+width:100%;
+}
+body{
+    font:100% Arial, Helvetica, sans-serif;
+    line-height:1.5;
+    font-weight:normal;
+    font-style:normal;
+    min-height:100%;
+    width:100%;
+}
+a{
+    color:#74C0CF;
+    text-decoration:none;
+}
+a:hover{
+    color:#FBAE2C;
+}
+li{
+    list-style-position:inside;
+}
+
+/*layout styles*/
+
+body{
+    background:#F1F7E2;
+    width:960px;
+    position:relative;
+    margin:0 auto;
+}
+
+header{
+    width:100%;
+    height:140px;
+    background:#4E7178;
+    border-bottom: 1px solid #202B30;
+}
+section#content{
+ 	margin-top:10px;
+ 	/*overflow:hidden;*/
+
+}
+
+nav{
+    width:220px;
+    float:left;
+    margin-left:2px;
+}
+
+article{
+    float:left;
+    width:680px;
+}
+section#forms{
+	float:left;
+	width:680px;
+}
+
+section#controls{
+   float:right;
+   width:600px;
+   margin-top:3em;
+}
+
+footer{
+    clear:both;
+    border-top:1px solid white;
+    position:fixed;
+    bottom:0;
+    height:30px;
+    width:960px;
+    background:#202B30 ;
+    text-align:center;
+    color:gray;
+    font-size:14px;
+}
+
+/*Header styles*/
+header h1{
+	display:block;
+	float:left;
+	width:300px;
+    font-size:3em;
+    padding:.8em 0em .7em .8em;
+    color:white;
+}
+.orange{
+	color:#FBAE2C;
+}
+.blue{
+	color:#74C0CF ;
+}
+header p{
+	border-radius:.5em 0 0 .5em;
+	background: rgba(35, 31, 32, .4);
+	margin-top:30px;
+	padding:1.2em 1em;
+	float:right;
+	width:180px;
+	color:white;
+	font-family:Cantora One;
+}
+#pageHeader{
+	font-family:Cantora One;
+}
+/*Nav styles*/
+nav ul:first-of-type{
+	border-radius:.3em .3em 0 0;
+}
+nav ul a:first-of-type{
+	border-radius:.3em .3em 0 0;
+}
+nav ul{
+	font-weight:bold;
+	line-height:2em;
+	width:11em;
+	background:#4FA9B8;
+	border-bottom:1px solid #F1F7E2;
+	/*border-top:1px solid #418A96;*/
+
+
+}
+nav li{
+	font-weight:normal;
+	border-top:1px solid #418A96;
+	list-style:none;
+	width:11em;
+	display:block;
+
+}
+nav a{
+	display:block;
+	width:9em;
+	line-height:2em;
+	color:#F1F7E2;
+	background:#4FA9B8;
+	padding: 0 1em;
+}
+nav li a{
+	width:8em;
+	border-left:1em solid #418A96;
+}
+nav a:hover{
+	background:#596A68;
+}
+.current{
+	background-color:#A2BFB8;
+}
+.current_sub{
+	background-color:#428D99;
+}
+
+
+/*Article styles*/
+article h2{
+	font-family:Cantora One;
+	font-size:1.5em;
+	padding-bottom:.3em;
+	border-bottom:1px dotted #202B30;
+}
+article p{
+	font-size:100%;
+	padding-top:10px;
+}
+
+/*form elements*/
+label{
+	display:block;
+	padding-top:.5em;
+}
+#forms h2{
+	font-size:1.5em;
+	padding-bottom:.3em;
+	border-bottom:1px dotted #202B30;
+}
+#form1, #form2{
+	display:inline;
+}
+textarea{
+	display:block;
+}
+#form1 input[type=submit]{
+	margin-top:10px;
+	display:block;
+}
+#form2 input[type=submit]{
+	margin:10px 0 0;
+	float:left;
+}
+/*controls styles*/
+#controls a{
+	display:block;
+	float:left;
+	padding:0 .5em;
+	color:white;
+	margin-left:2px;
+	border-radius:.3em;
+}
+.subject{
+	background-color:#4E7178;
+}
+.page{
+	background-color:#74C0CF;
+}
+#controls a:hover{
+	background-color:#FBAE2C;
+}
+/*secion message*/
+#message{
+	clear:both;
+	margin-top:60px;
+	margin-bottom:30px;
+	width:700px;
+	float:right;
+}
+#message p{
+	width:70%;
+	display:block;
+	text-align:center;
+	font-size:95%;
+	border:1px dotted #74C0CF;
+	padding:.3em 1em;
+	color:#BA451C;
+}
+
+/*footer styles*/
+
+
+
